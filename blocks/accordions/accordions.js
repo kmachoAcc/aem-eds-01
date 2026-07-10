@@ -9,8 +9,6 @@ function toogleAccordion(row) {
 }
 
 export default function decorate(block) {
-  console.log(block);
-  /* change to ul, li */
   [...block.children].forEach((row) => {
     const accordionTitle = row.firstElementChild;
     const accordionDescription = row.lastElementChild;
