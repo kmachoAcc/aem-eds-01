@@ -12,7 +12,7 @@
     padding: 1rem 2rem;
     cursor: pointer;
     position: relative;
-    font-family: "Arial", sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 300;
     display: grid;
     justify-content: space-between;
@@ -37,6 +37,12 @@
     }
   }
 
+  .accordions-block-description {
+    padding: 0.5rem 2rem 1rem;
+    display: none;
+
+  }
+
   &.is-open {
     background-color: #fafafa;
 
@@ -49,12 +55,6 @@
         transform: rotate(-135deg);
       }
     }
-  }
-
-  .accordions-block-description {
-    padding: 0.5rem 2rem 1rem;
-    display: none;
-
   }
 }
 
